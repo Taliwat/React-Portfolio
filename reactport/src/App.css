@@ -1,3 +1,135 @@
+* {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: lightgreen;
+}
+.wrapper {
+  width: 100%;
+};
+
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+.container {
+padding: 0 10px;
+}
+}
+
+/* Styles for screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.container {
+max-width: 960px;
+}
+}
+
+/* Styles for screens larger than 992px */
+@media screen and (min-width: 992px) {
+.container {
+max-width: 1200px;
+}
+}
+
+#container {
+position: relative;
+font-weight: bold;
+}
+
+h2 {
+position: absolute;
+top: 0;
+left: 0;
+margin: 0;
+padding: 0;
+background-color: white;
+z-index: 1;
+}
+
+p {
+margin-top: 30px;
+padding: 0;
+}
+
+#container {
+width: 100px; /* set width of container */
+height: 100px; /* set height of container */
+overflow: hidden; /* hide any content that overflows the container */
+}
+
+img {
+width: 50%; /* set width of image to 100% of its container */
+height: auto; /* set height to auto to maintain aspect ratio */
+object-fit: cover; /* scale the image while maintaining aspect ratio, cropping if necessary */
+}
+
+* {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: lightgreen;
+}
+.wrapper {
+  width: 100%;
+};
+
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+.container {
+padding: 0 10px;
+}
+}
+
+/* Styles for screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.container {
+max-width: 960px;
+}
+}
+
+/* Styles for screens larger than 992px */
+@media screen and (min-width: 992px) {
+.container {
+max-width: 1200px;
+}
+}
+
+#container {
+position: relative;
+font-weight: bold;
+}
+
+h2 {
+position: absolute;
+top: 0;
+left: 0;
+margin: 0;
+padding: 0;
+background-color: white;
+z-index: 1;
+}
+
+p {
+margin-top: 30px;
+padding: 0;
+}
+
+#container {
+width: 100px; /* set width of container */
+height: 100px; /* set height of container */
+overflow: hidden; /* hide any content that overflows the container */
+}
+
+img {
+width: 50%; /* set width of image to 100% of its container */
+height: auto; /* set height to auto to maintain aspect ratio */
+object-fit: cover; /* scale the image while maintaining aspect ratio, cropping if necessary */
+}
+
 .App {
   text-align: center;
 }
